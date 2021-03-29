@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.filter {
+  padding-top: 20px;
+}
+
+.movies-list {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.movies-list img {
+  width: 100%;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+.movies-list a {
+  color: white;
+}
